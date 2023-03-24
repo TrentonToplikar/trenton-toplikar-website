@@ -1,0 +1,13 @@
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color:#253439;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+img#skills {
+    width: 900px;
+    margin-top: 80px;
+}

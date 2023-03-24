@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color:#253439 !important;
+  overflow-x: hidden;
+  font-family: 'Shrikhand', cursive !important;
+  min-width: 900px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+hr {
+  width: 70vw;
+  background: linear-gradient(to right, rgb(255, 98, 0) 0%, rgb(167, 79, 255) 100%) !important;
+  border: 0px;
+  height: 6px !important;
+  border-radius: 50%;
+  margin-bottom: 5rem;
+}
+
+/********* MouseLight **********/
+.flashlight {
+  position: fixed;
+  left: 1.5vw;
+  top: 50vh;
+  width: 200px;
+}
+
+img.flashlight-content {
+  width: 3rem;
+  border: 0px;
+  transition: all .4s ease-in-out; 
+  filter: brightness(0%);
+}
+
+img.flashlight-content:hover {
+  display: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  transform: scale(1.5); 
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+@media (min-width: 320px) and (max-width: 800px) {
+  body {
+   width: 100%;
+   background-color:#253439 !important;
+ }
+ }
+ 

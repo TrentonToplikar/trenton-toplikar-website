@@ -1,0 +1,23 @@
+.flashlight {
+    position: fixed;
+    left: 1.5vw;
+    top: 50%;
+    width: 0;
+}
+
+img.flashlight-content {
+    width: 4rem;
+    border: 0px;
+    transition: all .4s ease-in-out; 
+    filter: brightness(0%);
+}
+
+img.flashlight-content:hover {
+    display: center;
+    justify-content: center;
+    transform: scale(1.5); 
+}
+
+.flashlight-button {
+    all: unset;
+ }

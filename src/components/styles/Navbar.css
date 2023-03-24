@@ -1,0 +1,22 @@
+#links {
+    position: fixed;
+    width: 100vw;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+    background-color: #E1E9E8;
+    padding-left: 50px;
+    color: #E18801;
+    opacity: 90%;
+    z-index: 1;
+}
+#name-container {
+    text-decoration: none !important;
+}
+#right-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}

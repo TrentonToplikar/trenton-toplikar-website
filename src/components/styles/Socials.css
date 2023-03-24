@@ -1,0 +1,22 @@
+.socials-container {
+    position: fixed;
+    right: 1%;
+    top: 45%;
+    line-height: 3.3;
+    z-index: 1;
+}
+
+.social1 {
+    width: 3rem;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: #E18801;
+    transition: all .4s ease-in-out; 
+}
+.social1:hover {
+    display: center;
+    justify-content: center;
+    transform: scale(1.5); 
+    background-color: rgb(167, 79, 255);
+}

@@ -1,0 +1,33 @@
+.down-arrow-img {
+    width: 3rem;
+    position: relative;
+    bottom: 75px;
+    animation: bounce 2s infinite;
+    filter: brightness(2);
+    transition: all 1s ease-in-out; 
+}
+.down-arrow-img:hover {
+    animation: none;
+    transform: scale(1.5); 
+    filter: brightness(50);
+}
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  .down-arrow-container {
+    width: 32px;
+    transition: all .4s ease-in-out; 
+  }
+
+  .down-arrow-container:hover {
+    transform: scale(1.3); 
+  }

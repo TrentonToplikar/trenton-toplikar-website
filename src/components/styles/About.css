@@ -1,0 +1,105 @@
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    font-family: 'Shrikhand', cursive;
+}
+.bio-container {
+    width: 600px;
+    color: #b29e84;
+}
+.about-me-bio  {
+    font-size: 60px;
+    filter: brightness(70%);
+}
+img.me {
+    border-radius: 50%;
+}
+img.me:hover {
+    transform: translate(0, -5px);
+  }
+.i-am {
+    font-size: 34px;
+    font-family: 'Shrikhand', cursive;
+    line-height: 1.1;
+    word-spacing: 2px;
+}
+
+.my-bio {
+    word-spacing: 2px;
+    line-height: 1.1;
+    font-size: 34px;
+    font-family: 'Shrikhand', cursive;
+}
+
+li {
+    word-spacing: 2px;
+    line-height: 1.1;
+    font-size: 1.5vw;
+    font-family: 'Shrikhand', cursive;
+}
+
+.bottom-of-page2 {
+    width: 70vw;
+    background: linear-gradient(to right, rgba(255, 98, 0, 0.995) 0%, rgb(167, 79, 255) 100%) !important;
+    border: 0px;
+    height: 6px !important;
+    border-radius: 50%;
+}
+
+.background-color {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(182, 102, 53) 0%, rgb(66, 42, 91) 100%);
+    border-radius: 20px;
+    z-index: 2;
+    transform: skew(3deg, -3deg) rotateY(25deg);
+    transition: all 650ms ease-in-out 0s;
+}
+
+.child-about-background {
+    cursor: pointer;
+    flex: 1 1 0%;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    perspective: 1000px;
+}
+
+.child-about-background img {
+    border-radius: 20px;
+    width: 40vw;
+    z-index: 3;
+    transform: rotateY(25deg);
+    transition: all 650ms ease-in-out 0s;
+}
+
+.child-about-background:hover div {
+    transform: skew(-3deg, 3deg) rotateY(0deg);
+    transition: all 650ms ease-in-out 0s;
+}
+.bio-li {
+    font-size: 25px;
+}
+
+.SFG {
+    color: rgb(167, 79, 255);
+    filter: brightness(80%);
+}
+.about-me-header {
+    font-size: 8rem;
+    font-family: 'dosis',"HelveticaNeue-CondensedBold","trebuchet ms",sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    padding-top: 4rem;
+    color: white;
+    }
