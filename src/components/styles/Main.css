@@ -270,6 +270,7 @@ img {
     justify-content:space-between;
     align-items: center;
     width: 100%;
+    margin-left: 5%;
 }
 
   /********Snap scroll ********/
@@ -411,7 +412,7 @@ img {
       width: 90% !important;
     }
     .background-color {
-      width: 80% !important;
+      width: 0px !important;
     }
     .me {
       width: 80% !important;
@@ -471,5 +472,8 @@ img {
    }
    .flashlight-content {
     width: 0px !important;
+   }
+   #skills {
+    margin-left: 5%;
    }
    }
