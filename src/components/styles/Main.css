@@ -270,7 +270,6 @@ img {
     justify-content:space-between;
     align-items: center;
     width: 100%;
-    margin-left: 5%;
 }
 
   /********Snap scroll ********/
@@ -279,7 +278,10 @@ img {
     scroll-snap-type: mandatory;
     scroll-snap-type: y mandatory;
   }
-
+  #links {
+    height: 90px !important;
+    font-size: 30px;
+  }
   body {
     overscroll-behavior-y: none;
     font-family: 'dosis',"HelveticaNeue-CondensedBold","trebuchet ms",sans-serif;
@@ -305,8 +307,7 @@ img {
       justify-items: right !important;
       position: absolute !important;
       top: 100px !important;
-      left: 50% !important;
-      width: 50vw;
+      left: 60vw !important;
     }
     .social-words {
       margin-right: 30px;
@@ -418,7 +419,8 @@ img {
       width: 80% !important;
     }
     .horizontal-rule {
-      width: 100%
+      width: 100%;
+      margin-left: 6%;
     }
     hr {
       width: 70% !important;
