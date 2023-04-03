@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Check out my personal website here--> https://trenton-toplikar.herokuapp.com/
 
 ## Available Scripts
 
